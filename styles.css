@@ -124,3 +124,60 @@ button:hover {
     margin-left: 10px;
     padding: 5px 10px;
 }
+
+#wheelCanvas {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+#spinButton {
+    background-color: #00bfa5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+}
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.lottery, .referral, .quest {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #00ff99;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+button:hover {
+    background-color: #009688;
+    transform: scale(1.05);
+}
+#invitedList {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+button {
+    font-size: 14px;
+    font-weight: bold;
+}
