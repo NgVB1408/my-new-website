@@ -3,17 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vòng Quay May Mắn</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Lucky Draw Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Vòng Quay May Mắn</h1>
-        <div class="wheel-container">
-            <img id="wheel" src="https://i.imgur.com/Tq4VXRi.png" alt="Vòng quay may mắn">
+        <div class="lottery">
+            <canvas id="wheelCanvas"></canvas>
+            <button id="spinButton">GO</button>
+            <p>Lucky Draw: <span id="drawCount">10/10</span></p>
         </div>
-        <button id="spin">Quay Ngay</button>
-        <div id="message"></div>
+
+        <div class="referral">
+            <h2>Invite Your Friends!</h2>
+            <button id="inviteButton">Invite your friends</button>
+            <div id="invitedList">
+                <p>No Data</p>
+            </div>
+        </div>
+
+        <div class="quest">
+            <h2>Earn more chances</h2>
+            <div class="quest-item">
+                <span>Play To Earn LOSCOIN + 10 Times Lucky Draw</span>
+                <button>Go</button>
+            </div>
+            <div class="quest-item">
+                <span>Join Pigshouse Channel + 10 Times Lucky Draw</span>
+                <button>Go</button>
+            </div>
+            <div class="quest-item">
+                <span>Join Pigshouse Bot + 10 Times Lucky Draw</span>
+                <button>Go</button>
+            </div>
+            <div class="quest-item">
+                <span>Subscribe Pumpad Channel + 10 Times Lucky Draw</span>
+                <button>Go</button>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
