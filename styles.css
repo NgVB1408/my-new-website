@@ -1,9 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1e1e1e;
-    color: white;
+    background: linear-gradient(135deg, #1e1e1e, #3a3a3a);
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
+
 
 .container {
     width: 100%;
@@ -72,43 +75,9 @@ body {
 h2 {
     color: #00ff99;
     font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
-p {
-    margin: 10px 0;
-    font-size: 1.2em;
-}
-
-button {
-    background-color: #00bfa5;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #00796b;
-}
-
-.quest-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-    background-color: #3a3a3a;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.quest-item span {
-    flex: 1;
-    text-align: left;
-    margin-right: 10px;
-}
 .quest-item {
     display: flex;
     justify-content: space-between;
@@ -123,13 +92,37 @@ button:hover {
 .quest-item button {
     margin-left: 10px;
     padding: 5px 10px;
+    background-color: #00bfa5;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+.quest-item button:hover {
+    background-color: #00796b;
+}
+
+#invitedList {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+button {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
 #wheelCanvas {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
     display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 8px solid #00bfa5;
 }
 
 #spinButton {
@@ -140,10 +133,12 @@ button:hover {
     margin-top: 20px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
     display: block;
     margin: 20px auto;
+    width: 100px;
 }
+
 .container {
     width: 90%;
     max-width: 400px;
